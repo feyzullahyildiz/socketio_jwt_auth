@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Socket IO AUTH</title>
+</head>
+<style>
+    #loginForm {
+        display: flex;
+        flex-direction: column;
+        padding: 8px;
+        border: 1px solid black;
+    }
+    #loginForm div {
+        display: flex;
+        margin-bottom: 8px;
+     }
+    #loginForm div span{ 
+        width: 150px;
+    }
+</style>
+<body>
+
+    <form id="loginForm">
+        <div>
+            <span>
+                    Kullanıcı Adı
+            </span>
+            <input id="username" type="text" name="username">
+        </div>
+        <div>
+            <span>
+                    Şifre
+            </span>
+            <input id="password" type="password" name="username">
+        </div>
+        <div>
+            <input type="submit" value="Giriş Yap">
+        </div>
+    </form>
+    <br>
+    <br>
+    <br>
+    <button class="test">Örnek Veri Al</button>
+    <div class="response-data-container"></div>
+    <script src="index.js"></script>
+</body>
+
+</html>
