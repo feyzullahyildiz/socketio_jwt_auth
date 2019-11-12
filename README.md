@@ -5,7 +5,7 @@ JWT ile kendi mantığımca bir socket.io üzerine güvenlik entegre ettim, doğ
 ### client tarafını ayağa kaldırmak için
     - cd client
     - yarn
-    - yarn start
+    - yarn start (http://localhost:1234 ulaşabilirsiniz.)
 
 ### server tarafını ayağa kaldırmak için
     - cd server
